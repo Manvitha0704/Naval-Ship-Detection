@@ -66,7 +66,7 @@ Deploy easily on **GitHub Pages**:
 
 ---
 
-##  Screenshots
+##  Results
 
 | Training Metrics | Confusion Matrix | Labels Distribution |
 |------------------|-------------------|----------------------|
