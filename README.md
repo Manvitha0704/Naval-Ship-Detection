@@ -40,7 +40,7 @@ Deploy easily on **GitHub Pages**:
 
 - **Add to `package.json`**:
   ```json
-  "homepage": "https://<YOUR_USERNAME>.github.io/Naval-Ship-Detection",
+  "homepage": "https://Manvitha0704.github.io/Naval-Ship-Detection",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -70,7 +70,7 @@ Deploy easily on **GitHub Pages**:
 
 | Training Metrics | Confusion Matrix | Labels Distribution |
 |------------------|-------------------|----------------------|
-| ![Training](public/results.png) | ![Confusion](public/confusion_matrix.png) | ![Labels](public/labels.jpg) |
+| ![Training](ship-detection-web/public/results.png) | ![Confusion](ship-detection-web/public/confusion_matrix.png) | ![Labels](ship-detection-web/public/labels.jpg) |
 
 ---
 
