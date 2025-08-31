@@ -1,0 +1,174 @@
+/* General Layout */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: linear-gradient(135deg, #e0f0ff, #f5eaff); /* soft gradient */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Headings */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0056d6;
+}
+
+p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+h3 {
+  margin-bottom: 12px;
+  color: #444;
+  border-left: 4px solid #0077ff;
+  padding-left: 10px;
+}
+
+/* Buttons */
+.buttons {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+button {
+  margin: 6px;
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #0077ff, #6a5acd);
+  color: white;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #005fcc, #483d8b);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+  background: #bbb;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Cards */
+.result-card,
+.img-card {
+  background: #fafbff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 18px;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+}
+
+.result-card:hover,
+.img-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  background: #f0f6ff;
+}
+
+.result-card strong {
+  display: block;
+  margin-bottom: 12px;
+  color: #222;
+  font-size: 17px;
+}
+
+/* Images inside cards */
+.result-card img,
+.img-card img {
+  max-width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Image grid */
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.img-card p {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: #555;
+  word-break: break-word;
+}
+
+/* Training Results Section */
+.training-results {
+  margin-top: 45px;
+}
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+  margin-top: 20px;
+}
+.result-img {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 15px;
+  background: #fafafa;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.result-img img {
+  max-width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+.result-img:hover {
+  background: #eef5ff;
+  transform: scale(1.02);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  padding-top: 18px;
+  border-top: 1px solid #ddd;
+}
+
+footer code {
+  background: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}

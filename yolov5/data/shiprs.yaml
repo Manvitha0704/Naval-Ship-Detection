@@ -1,0 +1,6 @@
+train: C:/Users/manvi/Downloads/ShipRSImageNet.v39i.yolov5pytorch/train/images
+val: C:/Users/manvi/Downloads/ShipRSImageNet.v39i.yolov5pytorch/valid/images
+test: C:/Users/manvi/Downloads/ShipRSImageNet.v39i.yolov5pytorch/test/images
+
+nc: 50
+names: ['AOE', 'Arleigh Burke DD', 'Asagiri DD', 'Atago DD', 'Austin LL', 'Barge', 'Cargo', 'Commander', 'Container Ship', 'Dock', 'EPF', 'Enterprise', 'Ferry', 'Fishing Vessel', 'Hatsuyuki DD', 'Hovercraft', 'Hyuga DD', 'LHA LL', 'LSD 41 LL', 'Masyuu AS', 'Medical Ship', 'Midway', 'Motorboat', 'Nimitz', 'Oil Tanker', 'Osumi LL', 'Other Aircraft Carrier', 'Other Auxiliary Ship', 'Other Destroyer', 'Other Frigate', 'Other Landing', 'Other Merchant', 'Other Ship', 'Other Warship', 'Patrol', 'Perry FF', 'RoRo', 'Sailboat', 'Sanantonio AS', 'Submarine', 'Test Ship', 'Ticonderoga', 'Training Ship', 'Tugboat', 'Wasp LL', 'Yacht', 'YuDao LL', 'YuDeng LL', 'YuTing LL', 'YuZhao LL']
